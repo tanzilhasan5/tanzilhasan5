@@ -13,7 +13,7 @@
 
 ## About Me
 
-I'm a mobile app developer from Bangladesh with a focus on building polished, production-ready Flutter applications. I enjoy working across the full mobile stack — from UI design and state management to real-time backend integration with Firebase.
+I'm a mobile app developer from Bangladesh with a focus on building polished, production-ready Flutter applications. I enjoy working across the full mobile stack — from UI design and state management to real-time backend integration .
 
 ---
 
