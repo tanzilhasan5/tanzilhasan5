@@ -68,21 +68,31 @@ I'm a **Flutter & mobile developer** from Bangladesh, focused on shipping produc
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=tanzilhasan5&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+
+  <!-- FIX 1: Removed include_all_commits=true → fixes "Could not fetch total commits" error -->
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=tanzilhasan5&show_icons=true&theme=tokyonight&count_private=true"/>
   &nbsp;
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanzilhasan5&layout=compact&langs_count=6&theme=tokyonight"/>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=tanzilhasan5&theme=tokyonight&hide_border=true"/>
+
+  <!-- FIX 2: demolab streak URL is correct — but streak only counts PUBLIC commits -->
+  <!-- To see real streak: push at least one commit to a public repo each day -->
+  <img src="https://streak-stats.demolab.com/?user=tanzilhasan5&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tanzilhasan5&theme=tokyonight&no-frame=true&margin-w=6&row=1&column=6"/>
+
+  <!-- FIX 3: Replaced broken trophy service with stable activity graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanzilhasan5&theme=tokyo-night&hide_border=true&area=true"/>
+
 </div>
 
 ---
