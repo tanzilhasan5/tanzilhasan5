@@ -55,7 +55,7 @@ I'm a mobile app developer from Bangladesh with a focus on building polished, pr
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tanzilhasan5&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com/?user=tanzilhasan5&theme=tokyonight&hide_border=true"/>
 </div>
 
 <div align="center">
