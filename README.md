@@ -33,7 +33,7 @@ I'm a **Flutter & mobile developer** from Bangladesh, focused on shipping produc
 | Project | Description | Status |
 |---|---|---|
 | 🎵 **Stovetop Radio** | Music streaming app | 🔨 In Progress |
-| 🤖 **AquaFlow** | AI-powered insurance assistant | 🔨 In Progress |
+| 🤖 **AquaFlow** | AI-powered insurance assistant |  Done |
 | 😤 [**Angry GPT**](https://github.com/tanzilhasan5/Angry_GPT) | Unique AI chat experience | 👯 Seeking Contributors |
 
 ---
