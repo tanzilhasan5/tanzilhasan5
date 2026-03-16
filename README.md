@@ -1,46 +1,33 @@
-![Banner](https://raw.githubusercontent.com/tanzilhasan5/tanzilhasan5/main/banner.gif)
-
-<img align="right" src="https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380"/>
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=tanzilhasan5&label=Profile%20Views&color=0e75b6&style=flat" alt="tanzilhasan5"/>
-</p>
-
-### 👋 Hi, I'm **MD Tanzil Hasan**
-**Flutter & Mobile App Developer · Bangladesh 🇧🇩**
-
-- 🔭 Currently working on: **Stovetop Radio** & **AquaFlow (AI Insurance App)**
-- 🌱 Currently learning: **Firebase · Real-time Chat · Push Notifications · Google/Apple Sign-In**
-- 🤝 Open to collaborating on: **AI-powered mobile applications**
-- 💬 Ask me about: **Flutter · Dart · GetX · REST APIs · Firebase**
-- 📫 How to reach me: **tanzilhasan151@gmail.com**
-- ⚡ Fun fact: **I build one app at a time — but ship fast 🚀**
-
----
-
-<h3 align="left">🔗 Connect with me:</h3>
-<p align="left">
-  <a href="https://github.com/tanzilhasan5" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="tanzilhasan5" height="30" width="40"/>
+<div align="center">
+<h1>MD Tanzil Hasan</h1>
+<h3>Flutter & Mobile App Developer · Bangladesh 🇧🇩</h3>
+<p>
+  <a href="https://github.com/tanzilhasan5">
+    <img src="https://komarev.com/ghpvc/?username=tanzilhasan5&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
   </a>
-  <a href="mailto:tanzilhasan151@gmail.com" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google.svg" alt="email" height="30" width="40"/>
+  <a href="mailto:tanzilhasan151@gmail.com">
+    <img src="https://img.shields.io/badge/Email-tanzilhasan151@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/tanzilhasan5">
+    <img src="https://img.shields.io/badge/GitHub-tanzilhasan5-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
-
+</div>
 ---
-
-<h3 align="left">🚀 Current Projects:</h3>
-
+## 👋 About Me
+I'm a **Flutter & mobile developer** from Bangladesh, focused on shipping production-ready apps — from pixel-perfect UI and state management to real-time backend integration.
+- 🧠 Deepening expertise in: **Firebase · Real-time Chat · Push Notifications · Google/Apple Sign-In**
+- 🤝 Open to collaborating on **AI-powered mobile applications**
+- 📬 Contact: [tanzilhasan151@gmail.com](mailto:tanzilhasan151@gmail.com)
+---
+## 🚀 Current Projects
 | Project | Description | Status |
 |---|---|---|
 | 🎵 **Stovetop Radio** | Music streaming app | 🔨 In Progress |
 | 🤖 **AquaFlow** | AI-powered insurance assistant | 🔨 In Progress |
 | 😤 [**Angry GPT**](https://github.com/tanzilhasan5/Angry_GPT) | Unique AI chat experience | 👯 Seeking Contributors |
-
 ---
-
-<h3 align="left">🛠️ Languages & Tools:</h3>
+## 🛠️ Languages & Tools
 <p align="left">
   <a href="https://flutter.dev" target="_blank">
     <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/>
@@ -56,36 +43,35 @@
   </a>&nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>&nbsp;
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
   </a>
 </p>
-
 **Stack:** Flutter · Dart · GetX · REST APIs · WebSockets  
 **Backend:** Firebase Auth · Firestore · FCM · Google Sign-In · Apple Sign-In  
 **Tools:** Figma · Git · VS Code · Android Studio
-
 ---
-
-<h3 align="left">📊 GitHub Stats:</h3>
-
+## 📊 GitHub Stats
 <div align="center">
-  <img width="400px" src="https://github-readme-stats.vercel.app/api?username=tanzilhasan5&count_private=true&show_icons=true&theme=material-palenight&hide_border=true&bg_color=1F222E"/>
+  <!-- FIX 1: Removed include_all_commits=true → fixes "Could not fetch total commits" error -->
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=tanzilhasan5&show_icons=true&theme=tokyonight&count_private=true"/>
   &nbsp;
-  <img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanzilhasan5&layout=compact&langs_count=6&theme=material-palenight&hide_border=true&bg_color=1F222E"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanzilhasan5&layout=compact&langs_count=6&theme=tokyonight"/>
 </div>
-
+<br/>
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=tanzilhasan5&theme=material-palenight&hide_border=true&bg_color=1F222E"/>
+  <!-- FIX 2: demolab streak URL is correct — but streak only counts PUBLIC commits -->
+  <!-- To see real streak: push at least one commit to a public repo each day -->
+  <img src="https://streak-stats.demolab.com/?user=tanzilhasan5&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
 </div>
-
+<br/>
 <div align="center">
+  <!-- FIX 3: Replaced broken trophy service with stable activity graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanzilhasan5&theme=tokyo-night&hide_border=true&area=true"/>
 </div>
-
 ---
-
+## 📬 Get in Touch
+📧 [tanzilhasan151@gmail.com](mailto:tanzilhasan151@gmail.com)
+---
 <div align="center">
   <i>Building one app at a time 🚀</i>
 </div>
+ i am tanzil hasan please see uper code adjust this
