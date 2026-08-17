@@ -1,0 +1,48 @@
+name: Generate Profile Stats and Snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-stats:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Step 1: Generate Profile Summary Cards (does not push automatically)
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: tanzilhasan5
+          AUTO_PUSH: false
+          UTC_OFFSET: 6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 2: Generate Snake Contribution Animation directly into the output folder
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: tanzilhasan5
+          outputs: |
+            profile-summary-card-output/github-snake.svg
+            profile-summary-card-output/github-snake-dark.svg?palette=github-dark
+
+      # Step 3: Deploy the entire folder to the 'output' branch
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: profile-summary-card-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
