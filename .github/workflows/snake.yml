@@ -1,22 +1,36 @@
-name: Generate Snake Animation
+name: Generate GitHub Profile Stats
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
+    - cron: "0 */6 * * *"  # Runs every 6 hours for fresh data
   workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  generate:
+  generate-stats:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate Snake Game from GitHub Contributions
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Generate Profile Summary Cards (Stats, Languages, Productive Time, etc.)
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: tanzilhasan5
+          BRANCH_NAME: output
+          UTC_OFFSET: 6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate Snake Contribution Animation
+      - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: tanzilhasan5
@@ -29,5 +43,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
