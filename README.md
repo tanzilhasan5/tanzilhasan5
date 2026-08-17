@@ -78,28 +78,20 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 
 <div align="center">
 
-#### 📱 Frontend & Mobile
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+#### 📱 Mobile & Frontend
+[![My Skills](https://skillicons.dev/icons?i=flutter,dart,firebase,js,kotlin&theme=dark)](https://skillicons.dev)
+
+#### 🛠️ Tools & Design
+[![My Tools](https://skillicons.dev/icons?i=androidstudio,vscode,git,github,figma&theme=dark)](https://skillicons.dev)
+
+#### 🔌 Also Work With
 ![GetX](https://img.shields.io/badge/GetX-8B5CF6?style=for-the-badge&logo=dart&logoColor=white)
-
-#### 🔥 Backend & Services
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=firebase&logoColor=white)
-![FCM](https://img.shields.io/badge/FCM-FF4444?style=for-the-badge&logo=firebase&logoColor=white)
-
-#### 🔌 APIs & Auth
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Google Sign-In](https://img.shields.io/badge/Google_Sign--In-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Apple Sign-In](https://img.shields.io/badge/Apple_Sign--In-000000?style=for-the-badge&logo=apple&logoColor=white)
-
-#### 🛠️ Tools & Design
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![FCM](https://img.shields.io/badge/FCM-FF4444?style=for-the-badge&logo=firebase&logoColor=white)
+![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=firebase&logoColor=white)
 
 </div>
 
@@ -120,9 +112,9 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="28" /> &nbsp;GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tanzilhasan5&show_icons=true&theme=tokyonight&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&rank_icon=github&icon_color=70a5fd&title_color=70a5fd&text_color=c9d1d9" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=tanzilhasan5&show_icons=true&theme=tokyonight&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&rank_icon=github&icon_color=70a5fd&title_color=70a5fd&text_color=c9d1d9" alt="GitHub Stats"/>
   &nbsp;
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanzilhasan5&layout=compact&langs_count=8&theme=tokyonight&bg_color=0d1117&hide_border=true&cache_seconds=1800&title_color=70a5fd&text_color=c9d1d9" alt="Top Languages"/>
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tanzilhasan5&layout=compact&langs_count=8&theme=tokyonight&bg_color=0d1117&hide_border=true&cache_seconds=1800&title_color=70a5fd&text_color=c9d1d9" alt="Top Languages"/>
 </div>
 
 <br/>
