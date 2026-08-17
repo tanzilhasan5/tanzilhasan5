@@ -2,7 +2,7 @@ name: Generate GitHub Profile Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours for fresh data
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -19,7 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Generate Profile Summary Cards (Stats, Languages, Productive Time, etc.)
+      - name: Create output directory
+        run: mkdir -p dist/profile-summary-card-output
+
+      # Step 1: Generate Profile Summary Cards
       - name: Generate Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
@@ -29,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate Snake Contribution Animation
+      # Step 2: Generate Snake Contribution Animation
       - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
@@ -38,11 +41,21 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Step 3: Checkout the output branch and merge everything
+      - name: Checkout output branch
+        run: |
+          git fetch origin output || true
+          git checkout output || git checkout -b output
+          
+      - name: Copy snake files to output branch
+        run: |
+          cp dist/github-snake.svg . 2>/dev/null || true
+          cp dist/github-snake-dark.svg . 2>/dev/null || true
+          
+      - name: Commit and push snake files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-snake.svg github-snake-dark.svg
+          git diff --staged --quiet || git commit -m "Update snake animation"
+          git push origin output
