@@ -27,7 +27,7 @@ jobs:
           AUTO_PUSH: false
           UTC_OFFSET: 6
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
 
       # Step 2: Generate Snake Contribution Animation directly into the output folder
       - name: Generate Snake Animation
